@@ -14,7 +14,7 @@ const HomeProjects = () => {
           <ProjectBox
             href="https://www.ascensionkofc.com/"
             type="NextJS Website"
-            text="Ascension Knights of Columbus"
+            text="Ascension K of C"
             imgSrc="/images/kofc.png"
             imgAlt="Ascension Knights of Columbus"
           />
