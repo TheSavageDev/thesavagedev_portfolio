@@ -1,3 +1,5 @@
+import { FooterLink } from "./FooterLink";
+
 const HomeFooter = () => {
   return (
     <footer className="w-full bg-gray-900 text-white flex flex-col">
@@ -42,8 +44,11 @@ const HomeFooter = () => {
                         d="M274.6,25.623a32.006,32.006,0,0,0-37.2,0L16,183.766V496H496V183.766ZM464,402.693,339.97,322.96,464,226.492ZM256,51.662,454.429,193.4,311.434,304.615,256,268.979l-55.434,35.636L57.571,193.4ZM48,226.492,172.03,322.96,48,402.693ZM464,464H48V440.735L256,307.021,464,440.735Z"
                       ></path>
                     </svg>
-                    <a href="mailto:jason@thesavage.dev" className="text-white">
-                      jason@thesavage.dev
+                    <a
+                      href="mailto:thesavage42@icloud.com"
+                      className="text-white"
+                    >
+                      thesavage42@icloud.com
                     </a>
                   </span>
                   <span className="flex items-center space-x-2">
@@ -74,58 +79,35 @@ const HomeFooter = () => {
               <article>
                 <p className="font-bold tracking-wide text-brick">Projects</p>
                 <ul className="mt-2 space-y-2">
-                  <li>
-                    <a
-                      href="/"
-                      className="transition-colors duration-300 text-gray-300 hover:text-brick"
-                    >
-                      Trendy Savages
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/"
-                      className="transition-colors duration-300 text-gray-300 hover:text-brick"
-                    >
-                      OrthoAthletic
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/"
-                      className="transition-colors duration-300 text-gray-300 hover:text-brick"
-                    >
-                      Foldaway Tailer Company
-                    </a>
-                  </li>
+                  <FooterLink
+                    href="https://rndkc.vercel.app"
+                    text="RND Garage"
+                  />
+                  <FooterLink
+                    href="https://www.orthoathleticedu.com/"
+                    text="OrthoAthletic"
+                  />
+                  <FooterLink
+                    href="https://www.ascensionkofc.com/"
+                    text="Ascension Knights of Columbus"
+                  />
+                  <FooterLink
+                    href="https://www.ks3130.com"
+                    text="American Heritage Girls Troop KS-3130"
+                  />
                 </ul>
               </article>
               <article>
                 <p className="font-bold tracking-wide text-brick">Services</p>
                 <ul className="mt-2 space-y-2">
-                  <li>
-                    <a
-                      href="/"
-                      className="transition-colors duration-300 text-gray-300 hover:text-brick"
-                    >
-                      Research
-                    </a>
+                  <li className="transition-colors duration-300 text-gray-300">
+                    Research
                   </li>
-                  <li>
-                    <a
-                      href="/"
-                      className="transition-colors duration-300 text-gray-300 hover:text-brick"
-                    >
-                      Develop
-                    </a>
+                  <li className="transition-colors duration-300 text-gray-300">
+                    Develop
                   </li>
-                  <li>
-                    <a
-                      href="/"
-                      className="transition-colors duration-300 text-gray-300 hover:text-brick"
-                    >
-                      WordPress, Shopify, Gatsby
-                    </a>
+                  <li className="transition-colors duration-300 text-gray-300">
+                    WordPress, Shopify, Gatsby
                   </li>
                 </ul>
               </article>
