@@ -16,7 +16,6 @@ const Home: NextPage = () => {
       </header>
       <main className="w-full m-0 bg-gray-900 text-white" id="home-main">
         <HomeProjects />
-        <HomeServices />
       </main>
       <HomeFooter />
     </>
