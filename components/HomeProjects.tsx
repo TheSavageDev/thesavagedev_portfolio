@@ -13,31 +13,39 @@ const HomeProjects = () => {
         <section className="flex flex-wrap justify-between md:flex-nowrap">
           <ProjectBox
             href="https://www.ascensionkofc.com/"
-            type="NextJS Website"
+            type="WordPress Website"
             text="Ascension K of C"
-            imgSrc="/images/kofc.png"
-            imgAlt="Ascension Knights of Columbus"
+            img={{
+              imgSrc: "/images/kofc.png",
+              imgAlt: "Ascension Knights of Columbus",
+            }}
           />
           <ProjectBox
             href="https://www.orthoathleticedu.com/"
             type="WordPress Website"
             text="OrthoAthletic Education"
-            imgSrc="/images/orthoathletic.png"
-            imgAlt="OrthoAthletic Education, LLC"
+            img={{
+              imgSrc: "/images/orthoathletic.png",
+              imgAlt: "OrthoAthletic Education, LLC",
+            }}
           />
           <ProjectBox
             href="https://rndkc.vercel.app"
             type="NextJS Website"
             text="RND Garage"
-            imgSrc="/images/rnd.svg"
-            imgAlt="RND Garage"
+            img={{
+              imgSrc: "/images/rnd.svg",
+              imgAlt: "RND Garage",
+            }}
           />
           <ProjectBox
             href="https://www.ks3130.com"
             type="NextJS Website"
             text="AHG Troop KS-3130"
-            imgSrc="/images/ahg.jpg"
-            imgAlt="American Heritage Girls Troop KS-3130"
+            img={{
+              imgSrc: "/images/ahg.jpg",
+              imgAlt: "American Heritage Girls Troop KS-3130",
+            }}
           />
         </section>
       </section>
@@ -50,18 +58,23 @@ const HomeProjects = () => {
         </header>
         <section className="flex flex-wrap justify-between md:flex-nowrap">
           <ProjectBox
-            href="https://mpp-seven.vercel.app"
-            type="NextJS Website"
-            text="Dogs 4 Valor"
-            imgSrc="/images/d4v.webp"
-            imgAlt="Dogs 4 Valor"
-          />
-          <ProjectBox
-            href="https://savagenails.info"
-            type="NextJS Website"
-            text="Beauty & Grace with the Savage Gals"
-            imgSrc="/images/vercel.svg"
-            imgAlt="Savage Nails"
+            href=""
+            type="NextJS, NestJS, and Firebase App"
+            text="Savage Sport"
+            imgs={[
+              {
+                imgSrc: "/images/next.svg",
+                imgAlt: "NextJS Logo",
+              },
+              {
+                imgSrc: "/images/nestjs.svg",
+                imgAlt: "NestJS Logo",
+              },
+              {
+                imgSrc: "/images/firebase.svg",
+                imgAlt: "Firebase Logo",
+              },
+            ]}
           />
         </section>
       </section>
