@@ -113,11 +113,6 @@ const HomeFooter = () => {
               </article>
             </section>
           </article>
-          <article className="flex flex-col justify-between pt-5 pb-10 border-t-2 border-primary sm:flex-row">
-            <small className="text-sm text-gray-100">
-              &copy; The Savage Dev 2021. Made with NextJS and TailwindCSS
-            </small>
-          </article>
         </section>
       </section>
     </footer>

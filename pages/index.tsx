@@ -5,7 +5,7 @@ import HomeProjects from "../components/HomeProjects";
 
 const Home: NextPage = () => {
   return (
-    <>
+    <main className="max-h-screen max-w-screen overflow-auto">
       <Head>
         <title>TheSavageDev</title>
         <link rel="icon" href="/favicon.png" />
@@ -17,7 +17,7 @@ const Home: NextPage = () => {
         <HomeProjects />
       </main>
       <HomeFooter />
-    </>
+    </main>
   );
 };
 
