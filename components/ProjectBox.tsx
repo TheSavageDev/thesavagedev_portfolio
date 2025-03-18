@@ -18,15 +18,15 @@ export const ProjectBox = ({
   }[];
 }) => {
   return (
-    <article className="xl:w-1/2 md:w-1/2 p-4 ">
-      <article className="bg-primary p-6 rounded-xl shadow-lg hover:shadow-2xl">
+    <article className="w-full xl:w-1/3 md:w-1/2 p-4 h-full">
+      <article className="bg-primary p-6 rounded-xl shadow-lg hover:shadow-2xl flex flex-col h-full">
         <a href={href} target="_blank" rel="noopener noreferrer nofollow">
           {imgs ? (
-            <article className="w-full flex flex-row flex-wrap">
+            <article className="w-full flex flex-row flex-wrap justify-center items-center">
               {imgs.map((img) => {
                 return (
                   <img
-                    className="h-40 rounded-xl object-contain object-center mb-6"
+                    className="h-20 rounded-xl object-contain object-center mb-6"
                     src={img.imgSrc}
                     alt={img.imgAlt}
                     title={img.imgAlt}

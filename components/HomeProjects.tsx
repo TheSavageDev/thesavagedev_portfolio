@@ -10,11 +10,11 @@ const HomeProjects = () => {
           </h2>
           <hr />
         </header>
-        <section className="flex flex-wrap justify-between md:flex-nowrap">
+        <section className="flex flex-wrap -m-4 items-stretch">
           <ProjectBox
             href="https://www.ascensionkofc.com/"
             type="WordPress Website"
-            text="Ascension K of C"
+            text="Ascension Knights of Columbus"
             img={{
               imgSrc: "/images/kofc.png",
               imgAlt: "Ascension Knights of Columbus",
@@ -56,12 +56,16 @@ const HomeProjects = () => {
           </h2>
           <hr />
         </header>
-        <section className="flex flex-wrap justify-between md:flex-nowrap">
+        <section className="flex flex-wrap -m-4 items-stretch">
           <ProjectBox
-            href=""
-            type="NextJS, NestJS, and Firebase App"
-            text="Savage Sport"
+            href="https://github.com/TheSavageDev/savage-supply"
+            type="React Native and NextJS frontend and NestJS backend"
+            text="Savage Supply"
             imgs={[
+              {
+                imgSrc: "/images/react-native.svg",
+                imgAlt: "React Native Logo",
+              },
               {
                 imgSrc: "/images/next.svg",
                 imgAlt: "NextJS Logo",
@@ -70,9 +74,24 @@ const HomeProjects = () => {
                 imgSrc: "/images/nestjs.svg",
                 imgAlt: "NestJS Logo",
               },
+            ]}
+          />
+          <ProjectBox
+            href="https://github.com/TheSavageDev/savage-sport"
+            type="React Native and NextJS frontend, NestJS backend"
+            text="Savage Sport"
+            imgs={[
               {
-                imgSrc: "/images/firebase.svg",
-                imgAlt: "Firebase Logo",
+                imgSrc: "/images/react-native.svg",
+                imgAlt: "React Native Logo",
+              },
+              {
+                imgSrc: "/images/next.svg",
+                imgAlt: "NextJS Logo",
+              },
+              {
+                imgSrc: "/images/nestjs.svg",
+                imgAlt: "NestJS Logo",
               },
             ]}
           />
