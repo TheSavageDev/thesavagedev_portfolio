@@ -3,7 +3,7 @@ export const FooterLink = ({ href, text }: { href: string; text: string }) => {
     <li>
       <a
         href={href}
-        className="transition-colors duration-300 text-gray-300 hover:text-brick"
+        className="text-gray-300 transition-colors duration-200 hover:text-yellow"
       >
         {text}
       </a>

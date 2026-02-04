@@ -1,102 +1,43 @@
-import { ProjectBox } from "./ProjectBox";
+import { shippedWork, workInProgress } from "../data/work";
+import { WorkCard } from "./WorkCard";
 
 const HomeProjects = () => {
   return (
-    <section className="text-gray-100 body-font flex flex-wrap items-center justify-center lg:flex-col">
-      <section className="p-5 max-h-full my-5 w-full rounded-xl transition-all duration-200 md:w-3/4 md:mx-auto lg:w-9/12">
-        <header className="lg:w-1/2 w-full mb-6 xl:mb-6 lg:mb-0">
-          <h2 className="sm:text-3xl text-2xl font-medium title-font text-gray-100">
+    <section className="body-font text-gray-100" aria-labelledby="work-heading">
+      <div className="mx-auto max-w-6xl px-6 py-8 md:py-10">
+        <header className="mb-6">
+          <h2
+            id="work-heading"
+            className="title-font text-3xl font-semibold tracking-tight text-gray-100 md:text-4xl"
+          >
             Work
           </h2>
-          <hr />
+          <hr className="mt-2 w-20 border-yellow" />
         </header>
-        <section className="flex flex-wrap -m-4 items-stretch">
-          <ProjectBox
-            href="https://www.ascensionkofc.com/"
-            type="WordPress Website"
-            text="Ascension Knights of Columbus"
-            img={{
-              imgSrc: "/images/kofc.png",
-              imgAlt: "Ascension Knights of Columbus",
-            }}
-          />
-          <ProjectBox
-            href="https://www.orthoathleticedu.com/"
-            type="WordPress Website"
-            text="OrthoAthletic Education"
-            img={{
-              imgSrc: "/images/orthoathletic.png",
-              imgAlt: "OrthoAthletic Education, LLC",
-            }}
-          />
-          <ProjectBox
-            href="https://rndkc.vercel.app"
-            type="NextJS Website"
-            text="RND Garage"
-            img={{
-              imgSrc: "/images/rnd.svg",
-              imgAlt: "RND Garage",
-            }}
-          />
-          <ProjectBox
-            href="https://www.ks3130.com"
-            type="NextJS Website"
-            text="AHG Troop KS-3130"
-            img={{
-              imgSrc: "/images/ahg.jpg",
-              imgAlt: "American Heritage Girls Troop KS-3130",
-            }}
-          />
-        </section>
-      </section>
-      <section className="p-5 max-h-full my-5 w-full rounded-xl transition-all duration-200 md:w-3/4 md:mx-auto lg:w-9/12">
-        <header className="lg:w-1/2 w-full mb-6 xl:mb-6 lg:mb-0">
-          <h2 className="sm:text-3xl text-2xl font-medium title-font text-gray-100">
-            Works in Progress
+        <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4 lg:gap-5">
+          {shippedWork.map((item) => (
+            <li key={item.href}>
+              <WorkCard item={item} />
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <div className="mx-auto max-w-6xl px-6 py-8 md:py-10">
+        <header className="mb-6">
+          <h2 className="title-font text-3xl font-semibold tracking-tight text-gray-100 md:text-4xl">
+            Works in progress
           </h2>
-          <hr />
+          <hr className="mt-2 w-20 border-yellow" />
         </header>
-        <section className="flex flex-wrap -m-4 items-stretch">
-          <ProjectBox
-            href="https://github.com/TheSavageDev/savage-supply"
-            type="React Native and NextJS frontend and NestJS backend"
-            text="Savage Supply"
-            imgs={[
-              {
-                imgSrc: "/images/react-native.svg",
-                imgAlt: "React Native Logo",
-              },
-              {
-                imgSrc: "/images/next.svg",
-                imgAlt: "NextJS Logo",
-              },
-              {
-                imgSrc: "/images/nestjs.svg",
-                imgAlt: "NestJS Logo",
-              },
-            ]}
-          />
-          <ProjectBox
-            href="https://github.com/TheSavageDev/savage-sport"
-            type="React Native and NextJS frontend, NestJS backend"
-            text="Savage Sport"
-            imgs={[
-              {
-                imgSrc: "/images/react-native.svg",
-                imgAlt: "React Native Logo",
-              },
-              {
-                imgSrc: "/images/next.svg",
-                imgAlt: "NextJS Logo",
-              },
-              {
-                imgSrc: "/images/nestjs.svg",
-                imgAlt: "NestJS Logo",
-              },
-            ]}
-          />
-        </section>
-      </section>
+        <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4 lg:gap-5">
+          {workInProgress.map((item) => (
+            <li key={item.href}>
+              <WorkCard item={item} />
+            </li>
+          ))}
+        </ul>
+      </div>
     </section>
   );
 };

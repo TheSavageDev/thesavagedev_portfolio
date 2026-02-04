@@ -585,11 +585,15 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        cross: "url('/images/cross.jpg')",
+        crucifix: "url('/images/crucifix.jpg')",
       },
       boxShadow: {
         dark: "inset 0 0 0 5000px rgba(0, 0, 0, 0.1)",
         hover: "inset 0 0 0 5000px rgba(0, 0, 0, 0.5)",
+        "glass-highlight":
+          "inset 0 1px 0 0 rgba(255,255,255,0.2), inset 0 -1px 0 0 rgba(0,0,0,0.1), 0 8px 32px -4px rgba(0,0,0,0.25)",
+        "glass-highlight-hover":
+          "inset 0 1px 0 0 rgba(255,255,255,0.28), inset 0 -1px 0 0 rgba(0,0,0,0.15), 0 12px 40px -4px rgba(0,0,0,0.35)",
       },
       colors: {
         overlay: "rgba(0, 0, 0, 0.6)",

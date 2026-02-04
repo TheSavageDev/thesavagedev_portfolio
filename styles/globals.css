@@ -1,7 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300;0,400;0,600;0,700;1,400&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,400i,600,700,700i&display=swap");
 
 @layer base {
   * {
@@ -9,9 +9,18 @@
     @apply box-border;
   }
 
-  html,
-  body {
+  html {
     scroll-behavior: smooth;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+  }
+
+  body {
+    -webkit-font-smoothing: antialiased;
   }
 
   html {
@@ -78,5 +87,40 @@
 
   .ttt_third-row--end {
     @apply h-32 bg-accent w-32 flex justify-center items-center text-5xl;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    backdrop-filter: blur(40px);
+    -webkit-backdrop-filter: blur(40px);
+  }
+}
+
+/** Section entrance (respects prefers-reduced-motion) */
+.section-reveal {
+  opacity: 0;
+  transform: translateY(0.5rem);
+  transition:
+    opacity 0.5s ease-out,
+    transform 0.5s ease-out;
+}
+
+.section-reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .section-reveal {
+    opacity: 1;
+    transform: none;
+    transition: none;
+  }
+
+  .section-reveal.is-visible {
+    opacity: 1;
+    transform: none;
   }
 }
