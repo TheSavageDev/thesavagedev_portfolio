@@ -1,5 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 120" role="img" aria-label="DugoutDesk">
-  <rect width="360" height="120" fill="#0f171c"/>
-  <text x="24" y="72" fill="#eaeaea" font-family="Georgia, serif" font-size="36" font-weight="600" letter-spacing="-0.02em">DugoutDesk</text>
-  <rect x="24" y="88" width="48" height="3" fill="#a87d1e"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 40" fill="none" role="img" aria-label="DugoutDesk">
+  <title>DugoutDesk</title>
+  <svg x="0" y="0" width="40" height="40" viewBox="0 0 512 512" aria-hidden="true">
+    <rect width="512" height="512" rx="96" fill="#0c120a"/>
+    <path d="M128 116H384C397.255 116 408 126.745 408 140V308C408 316.284 404.564 324.196 398.512 329.854L256 463L113.488 329.854C107.436 324.196 104 316.284 104 308V140C104 126.745 114.745 116 128 116Z" fill="none" stroke="#eef2e8" stroke-width="24" stroke-linejoin="round"/>
+    <path d="M190 116V101C190 89.954 198.954 81 210 81H229C234.681 58.361 243.914 48 256 48C268.086 48 277.319 58.361 283 81H302C313.046 81 322 89.954 322 101V116" fill="none" stroke="#eef2e8" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="256" cy="86" r="15" fill="#eef2e8"/>
+    <path d="M158 215H191" fill="none" stroke="#eef2e8" stroke-width="5" stroke-linecap="round"/>
+    <rect x="162" y="195" width="7" height="20" rx="2" fill="#5cbf3d"/>
+    <rect x="171" y="186" width="7" height="29" rx="2" fill="#5cbf3d"/>
+    <rect x="180" y="177" width="7" height="38" rx="2" fill="#5cbf3d"/>
+    <path d="M266 168V198" fill="none" stroke="#eef2e8" stroke-width="7" stroke-linecap="round"/>
+    <path d="M266 183L248 168" fill="none" stroke="#5cbf3d" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M266 183L248 198" fill="none" stroke="#5cbf3d" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="324" y="182" width="28" height="31" rx="4" fill="none" stroke="#eef2e8" stroke-width="4"/>
+    <path d="M324 190H352" fill="none" stroke="#eef2e8" stroke-width="4" stroke-linecap="round"/>
+    <path d="M331 176V186" fill="none" stroke="#eef2e8" stroke-width="4" stroke-linecap="round"/>
+    <path d="M345 176V186" fill="none" stroke="#eef2e8" stroke-width="4" stroke-linecap="round"/>
+    <circle cx="332" cy="198" r="2.5" fill="#5cbf3d"/>
+    <circle cx="338" cy="198" r="2.5" fill="#5cbf3d"/>
+    <circle cx="344" cy="198" r="2.5" fill="#5cbf3d"/>
+    <circle cx="332" cy="207" r="2.5" fill="#5cbf3d"/>
+    <circle cx="338" cy="207" r="2.5" fill="#5cbf3d"/>
+    <circle cx="344" cy="207" r="2.5" fill="#5cbf3d"/>
+    <path d="M148 320C174 277 212 254 256 254C300 254 338 277 364 320" fill="none" stroke="#eef2e8" stroke-width="18" stroke-linecap="round"/>
+    <path d="M186 352L256 292L326 352L256 412L186 352Z" fill="none" stroke="#eef2e8" stroke-width="14" stroke-linejoin="round"/>
+    <rect x="248" y="284" width="16" height="16" rx="2" fill="#5cbf3d" transform="rotate(45 256 292)"/>
+    <rect x="178" y="344" width="16" height="16" rx="2" fill="#5cbf3d" transform="rotate(45 186 352)"/>
+    <rect x="318" y="344" width="16" height="16" rx="2" fill="#5cbf3d" transform="rotate(45 326 352)"/>
+    <path d="M245 409H267V420L256 431L245 420Z" fill="#5cbf3d"/>
+  </svg>
+  <text x="48" y="27" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" font-weight="600" fill="#eef2e8">
+    Dugout<tspan fill="#5cbf3d">Desk</tspan>
+  </text>
 </svg>
