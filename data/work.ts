@@ -12,7 +12,7 @@ export const shippedWork: WorkItem[] = [
     href: "https://everredi.vercel.app",
     category: "Next.js, NestJS, Expo product",
     image: {
-      src: "/images/everredi.svg",
+      src: "/images/everredi.png",
       alt: "EverRedi",
     },
   },
