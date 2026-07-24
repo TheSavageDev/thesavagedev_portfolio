@@ -11,8 +11,8 @@ const HomeProjects = () => {
             Selected work
           </h2>
           <p className="section-lede">
-            A short list of shipped sites and products. More recent work coming
-            soon.
+            Selected sites and products — from client websites to full-stack
+            apps.
           </p>
         </header>
 
@@ -24,24 +24,26 @@ const HomeProjects = () => {
           ))}
         </ul>
 
-        <div className="mt-20 md:mt-28">
-          <header className="mb-4 max-w-2xl">
-            <p className="section-kicker">In progress</p>
-            <h3 className="section-title mt-3 text-2xl md:text-3xl lg:text-4xl">
-              Works in progress
-            </h3>
-            <p className="section-lede">
-              Active builds across mobile and web.
-            </p>
-          </header>
-          <ul className="border-b border-white/10">
-            {workInProgress.map((item, index) => (
-              <li key={item.href}>
-                <WorkCard item={item} index={index} />
-              </li>
-            ))}
-          </ul>
-        </div>
+        {workInProgress.length > 0 ? (
+          <div className="mt-20 md:mt-28">
+            <header className="mb-4 max-w-2xl">
+              <p className="section-kicker">In progress</p>
+              <h3 className="section-title mt-3 text-2xl md:text-3xl lg:text-4xl">
+                Works in progress
+              </h3>
+              <p className="section-lede">
+                Active builds across mobile and web.
+              </p>
+            </header>
+            <ul className="border-b border-white/10">
+              {workInProgress.map((item, index) => (
+                <li key={item.href}>
+                  <WorkCard item={item} index={index} />
+                </li>
+              ))}
+            </ul>
+          </div>
+        ) : null}
       </div>
     </section>
   );

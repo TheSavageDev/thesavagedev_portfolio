@@ -8,6 +8,15 @@ export type WorkItem = {
 
 export const shippedWork: WorkItem[] = [
   {
+    title: "EverRedi",
+    href: "https://everredi.vercel.app",
+    category: "Next.js, NestJS, Expo product",
+    image: {
+      src: "/images/everredi.svg",
+      alt: "EverRedi",
+    },
+  },
+  {
     title: "Ascension Knights of Columbus",
     href: "https://www.ascensionkofc.com/",
     category: "WordPress website",
@@ -45,25 +54,5 @@ export const shippedWork: WorkItem[] = [
   },
 ];
 
-export const workInProgress: WorkItem[] = [
-  {
-    title: "Savage Supply",
-    href: "https://github.com/TheSavageDev/savage-supply",
-    category: "React Native, Next.js, NestJS",
-    techLogos: [
-      { src: "/images/react-native.svg", alt: "React Native" },
-      { src: "/images/next.svg", alt: "Next.js" },
-      { src: "/images/nestjs.svg", alt: "NestJS" },
-    ],
-  },
-  {
-    title: "Savage Sport",
-    href: "https://github.com/TheSavageDev/savage-sport",
-    category: "React Native, Next.js, NestJS",
-    techLogos: [
-      { src: "/images/react-native.svg", alt: "React Native" },
-      { src: "/images/next.svg", alt: "Next.js" },
-      { src: "/images/nestjs.svg", alt: "NestJS" },
-    ],
-  },
-];
+/** Add in-progress projects here when you have a public link. */
+export const workInProgress: WorkItem[] = [];
