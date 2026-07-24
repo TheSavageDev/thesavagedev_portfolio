@@ -18,7 +18,7 @@ export const shippedWork: WorkItem[] = [
   },
   {
     title: "DugoutDesk",
-    href: "https://www.dugoutdesk.ca/",
+    href: "https://dugoutdesk.app",
     category: "Tournament management platform",
     image: {
       src: "/images/dugoutdesk.svg",
