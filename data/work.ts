@@ -44,15 +44,6 @@ export const shippedWork: WorkItem[] = [
     },
   },
   {
-    title: "RND Garage",
-    href: "https://rndkc.vercel.app",
-    category: "Next.js website",
-    image: {
-      src: "/images/rnd.svg",
-      alt: "RND Garage",
-    },
-  },
-  {
     title: "AHG Troop KS-3130",
     href: "https://www.ks3130.com",
     category: "Next.js website",
