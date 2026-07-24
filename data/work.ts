@@ -17,6 +17,15 @@ export const shippedWork: WorkItem[] = [
     },
   },
   {
+    title: "DugoutDesk",
+    href: "https://www.dugoutdesk.ca/",
+    category: "Tournament management platform",
+    image: {
+      src: "/images/dugoutdesk.svg",
+      alt: "DugoutDesk",
+    },
+  },
+  {
     title: "Ascension Knights of Columbus",
     href: "https://www.ascensionkofc.com/",
     category: "WordPress website",
