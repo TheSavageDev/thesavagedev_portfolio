@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 40" fill="none" role="img" aria-label="EverRedi">
   <title>EverRedi</title>
-  <!-- Original mark, scaled into a 40x40 logomark -->
-  <svg x="0" y="0" width="40" height="40" viewBox="0 0 256 256" aria-hidden="true">
+  <!-- Original mark scaled into a 40x40 logomark (no nested svg) -->
+  <g transform="translate(0 0) scale(0.15625)">
     <g transform="matrix(0.906831,0,0,1.09181,11.9256,-11.752)">
       <path
         d="M128,16C160,28 192,38 224,48L224,124C224,180 176,208 128,240C80,208 32,180 32,124L32,48C64,38 96,28 128,16Z"
@@ -20,15 +20,13 @@
         stroke-miterlimit="4"
       />
     </g>
-    <g>
-      <g transform="matrix(0.876757,0,0,1.33956,15.8714,-135.055)">
-        <rect x="116" y="132" width="24" height="56" fill="white"/>
-      </g>
-      <g transform="matrix(1.17212,0,0,0.875,-21.9345,-64.2738)">
-        <rect x="96" y="152" width="64" height="24" fill="white"/>
-      </g>
+    <g transform="matrix(0.876757,0,0,1.33956,15.8714,-135.055)">
+      <rect x="116" y="132" width="24" height="56" fill="white"/>
     </g>
-  </svg>
+    <g transform="matrix(1.17212,0,0,0.875,-21.9345,-64.2738)">
+      <rect x="96" y="152" width="64" height="24" fill="white"/>
+    </g>
+  </g>
   <text
     x="48"
     y="27"
