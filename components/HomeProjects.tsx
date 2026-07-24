@@ -3,40 +3,45 @@ import { WorkCard } from "./WorkCard";
 
 const HomeProjects = () => {
   return (
-    <section className="body-font text-gray-100" aria-labelledby="work-heading">
-      <div className="mx-auto max-w-6xl px-6 py-8 md:py-10">
-        <header className="mb-6">
-          <h2
-            id="work-heading"
-            className="title-font text-3xl font-semibold tracking-tight text-gray-100 md:text-4xl"
-          >
-            Work
+    <section className="relative" id="work" aria-labelledby="work-heading">
+      <div className="mx-auto max-w-6xl px-6 py-20 md:py-28">
+        <header className="mb-4 max-w-2xl">
+          <p className="section-kicker">Portfolio</p>
+          <h2 id="work-heading" className="section-title mt-3">
+            Selected work
           </h2>
-          <hr className="mt-2 w-20 border-yellow" />
+          <p className="section-lede">
+            A short list of shipped sites and products. More recent work coming
+            soon.
+          </p>
         </header>
-        <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4 lg:gap-5">
-          {shippedWork.map((item) => (
-            <li key={item.href}>
-              <WorkCard item={item} />
-            </li>
-          ))}
-        </ul>
-      </div>
 
-      <div className="mx-auto max-w-6xl px-6 py-8 md:py-10">
-        <header className="mb-6">
-          <h2 className="title-font text-3xl font-semibold tracking-tight text-gray-100 md:text-4xl">
-            Works in progress
-          </h2>
-          <hr className="mt-2 w-20 border-yellow" />
-        </header>
-        <ul className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4 lg:gap-5">
-          {workInProgress.map((item) => (
+        <ul className="border-b border-white/10">
+          {shippedWork.map((item, index) => (
             <li key={item.href}>
-              <WorkCard item={item} />
+              <WorkCard item={item} index={index} />
             </li>
           ))}
         </ul>
+
+        <div className="mt-20 md:mt-28">
+          <header className="mb-4 max-w-2xl">
+            <p className="section-kicker">In progress</p>
+            <h3 className="section-title mt-3 text-2xl md:text-3xl lg:text-4xl">
+              Works in progress
+            </h3>
+            <p className="section-lede">
+              Active builds across mobile and web.
+            </p>
+          </header>
+          <ul className="border-b border-white/10">
+            {workInProgress.map((item, index) => (
+              <li key={item.href}>
+                <WorkCard item={item} index={index} />
+              </li>
+            ))}
+          </ul>
+        </div>
       </div>
     </section>
   );

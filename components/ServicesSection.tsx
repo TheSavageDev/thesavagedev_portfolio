@@ -12,36 +12,38 @@ const formatNumber = (n: number) => String(n).padStart(2, "0");
 export const ServicesSection = () => {
   return (
     <section
-      className="mx-auto max-w-6xl px-6 py-12 md:py-16"
+      className="relative border-y border-white/10"
       aria-labelledby="services-heading"
     >
-      <header className="mb-10">
-        <h2
-          id="services-heading"
-          className="text-3xl font-semibold tracking-tight text-gray-100 md:text-4xl"
-        >
-          Services
-        </h2>
-        <hr className="mt-2 w-20 border-yellow" />
-      </header>
-      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {SERVICES.map((service, index) => (
-          <article
-            key={service.title}
-            className="glass-panel rounded-2xl border-white/20 bg-gray-800/25 p-6 shadow-glass-highlight transition-all duration-300 hover:-translate-y-0.5 hover:border-yellow/40 hover:shadow-glass-highlight-hover focus-within:border-yellow/40 motion-reduce:transition-none"
-          >
-            <span
-              className="text-sm font-medium tracking-wider text-yellow/80"
-              aria-hidden
-            >
-              {formatNumber(index + 1)}
-            </span>
-            <h3 className="mt-2 text-lg font-medium text-yellow">
-              {service.title}
-            </h3>
-            <p className="mt-2 text-gray-300">{service.description}</p>
-          </article>
-        ))}
+      <div className="mx-auto max-w-6xl px-6 py-20 md:py-28">
+        <header className="mb-12 max-w-2xl md:mb-16">
+          <p className="section-kicker">Capabilities</p>
+          <h2 id="services-heading" className="section-title mt-3">
+            Services
+          </h2>
+          <p className="section-lede">
+            From discovery to delivery across web, mobile, and content platforms.
+          </p>
+        </header>
+
+        <ol className="grid gap-10 md:grid-cols-3 md:gap-12">
+          {SERVICES.map((service, index) => (
+            <li key={service.title} className="relative">
+              <span
+                className="font-display text-4xl font-bold tracking-tight text-primary md:text-5xl"
+                aria-hidden
+              >
+                {formatNumber(index + 1)}
+              </span>
+              <h3 className="mt-4 font-display text-xl font-semibold tracking-tight text-white md:text-2xl">
+                {service.title}
+              </h3>
+              <p className="mt-3 text-base leading-relaxed text-gray-400">
+                {service.description}
+              </p>
+            </li>
+          ))}
+        </ol>
       </div>
     </section>
   );
