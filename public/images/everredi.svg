@@ -1,16 +1,42 @@
-<svg width="100%" height="100%" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-miterlimit:2;">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 40" fill="none" role="img" aria-label="EverRedi">
+  <title>EverRedi</title>
+  <!-- Original mark, scaled into a 40x40 logomark -->
+  <svg x="0" y="0" width="40" height="40" viewBox="0 0 256 256" aria-hidden="true">
     <g transform="matrix(0.906831,0,0,1.09181,11.9256,-11.752)">
-        <path d="M128,16C160,28 192,38 224,48L224,124C224,180 176,208 128,240C80,208 32,180 32,124L32,48C64,38 96,28 128,16Z" style="fill:rgb(185,28,28);fill-rule:nonzero;stroke:white;stroke-width:2.99px;"/>
+      <path
+        d="M128,16C160,28 192,38 224,48L224,124C224,180 176,208 128,240C80,208 32,180 32,124L32,48C64,38 96,28 128,16Z"
+        fill="rgb(185,28,28)"
+        fill-rule="nonzero"
+        stroke="white"
+        stroke-width="2.99"
+      />
     </g>
     <g transform="matrix(1,0,0,1,0,63.853)">
-        <path d="M88,104L116,132L168,80" style="fill:none;fill-rule:nonzero;stroke:white;stroke-width:8px;stroke-miterlimit:4;"/>
+      <path
+        d="M88,104L116,132L168,80"
+        fill="none"
+        stroke="white"
+        stroke-width="8"
+        stroke-miterlimit="4"
+      />
     </g>
     <g>
-        <g transform="matrix(0.876757,0,0,1.33956,15.8714,-135.055)">
-            <rect x="116" y="132" width="24" height="56" style="fill:white;"/>
-        </g>
-        <g transform="matrix(1.17212,0,0,0.875,-21.9345,-64.2738)">
-            <rect x="96" y="152" width="64" height="24" style="fill:white;"/>
-        </g>
+      <g transform="matrix(0.876757,0,0,1.33956,15.8714,-135.055)">
+        <rect x="116" y="132" width="24" height="56" fill="white"/>
+      </g>
+      <g transform="matrix(1.17212,0,0,0.875,-21.9345,-64.2738)">
+        <rect x="96" y="152" width="64" height="24" fill="white"/>
+      </g>
     </g>
+  </svg>
+  <text
+    x="48"
+    y="27"
+    font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+    font-size="20"
+    font-weight="600"
+    fill="#eef2e8"
+  >
+    EverRedi
+  </text>
 </svg>
