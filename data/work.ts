@@ -8,15 +8,6 @@ export type WorkItem = {
 
 export const shippedWork: WorkItem[] = [
   {
-    title: "EverRedi",
-    href: "https://everredi.vercel.app",
-    category: "Next.js, NestJS, Expo product",
-    image: {
-      src: "/images/everredi.svg",
-      alt: "EverRedi",
-    },
-  },
-  {
     title: "DugoutDesk",
     href: "https://dugoutdesk.app",
     category: "Youth baseball stats app",
@@ -26,30 +17,12 @@ export const shippedWork: WorkItem[] = [
     },
   },
   {
-    title: "Ascension Knights of Columbus",
-    href: "https://www.ascensionkofc.com/",
-    category: "WordPress website",
-    image: {
-      src: "/images/kofc.png",
-      alt: "Ascension Knights of Columbus",
-    },
-  },
-  {
     title: "OrthoAthletic Education",
     href: "https://www.orthoathleticedu.com/",
     category: "WordPress website",
     image: {
       src: "/images/orthoathletic.png",
       alt: "OrthoAthletic Education, LLC",
-    },
-  },
-  {
-    title: "AHG Troop KS-3130",
-    href: "https://www.ks3130.com",
-    category: "Next.js website",
-    image: {
-      src: "/images/ahg.jpg",
-      alt: "American Heritage Girls Troop KS-3130",
     },
   },
 ];

@@ -572,9 +572,6 @@ module.exports = {
       1000: "1000ms",
     },
     extend: {
-      backgroundImage: {
-        crucifix: "url('/images/crucifix.jpg')",
-      },
       boxShadow: {
         dark: "inset 0 0 0 5000px rgba(0, 0, 0, 0.1)",
         hover: "inset 0 0 0 5000px rgba(0, 0, 0, 0.5)",

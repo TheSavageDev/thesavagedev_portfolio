@@ -1,7 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import { ExperienceSection } from "../components/ExperienceSection";
-import { FaithSection } from "../components/FaithSection";
 import { HeroSection } from "../components/HeroSection";
 import HomeFooter from "../components/HomeFooter";
 import HomeProjects from "../components/HomeProjects";
@@ -41,9 +40,6 @@ const Home: NextPage = () => {
           </SectionReveal>
           <SectionReveal>
             <HomeProjects />
-          </SectionReveal>
-          <SectionReveal>
-            <FaithSection />
           </SectionReveal>
           <SectionReveal>
             <ServicesSection />

@@ -12,7 +12,7 @@ const SERVICES = [
   {
     title: "Sites with a long life",
     description:
-      "Next.js and WordPress for parishes, troops, and small organizations.",
+      "Next.js and WordPress for organizations that need a site they can keep.",
   },
 ] as const;
 
