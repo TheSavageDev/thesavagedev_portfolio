@@ -1,35 +1,24 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 40" fill="none" role="img" aria-label="DugoutDesk">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 171.37 40" fill="none" role="img" aria-label="DugoutDesk">
   <title>DugoutDesk</title>
   <svg x="0" y="0" width="40" height="40" viewBox="0 0 512 512" aria-hidden="true">
-    <rect width="512" height="512" rx="96" fill="#0c120a"/>
-    <path d="M128 116H384C397.255 116 408 126.745 408 140V308C408 316.284 404.564 324.196 398.512 329.854L256 463L113.488 329.854C107.436 324.196 104 316.284 104 308V140C104 126.745 114.745 116 128 116Z" fill="none" stroke="#eef2e8" stroke-width="24" stroke-linejoin="round"/>
-    <path d="M190 116V101C190 89.954 198.954 81 210 81H229C234.681 58.361 243.914 48 256 48C268.086 48 277.319 58.361 283 81H302C313.046 81 322 89.954 322 101V116" fill="none" stroke="#eef2e8" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
-    <circle cx="256" cy="86" r="15" fill="#eef2e8"/>
-    <path d="M158 215H191" fill="none" stroke="#eef2e8" stroke-width="5" stroke-linecap="round"/>
-    <rect x="162" y="195" width="7" height="20" rx="2" fill="#5cbf3d"/>
-    <rect x="171" y="186" width="7" height="29" rx="2" fill="#5cbf3d"/>
-    <rect x="180" y="177" width="7" height="38" rx="2" fill="#5cbf3d"/>
-    <path d="M266 168V198" fill="none" stroke="#eef2e8" stroke-width="7" stroke-linecap="round"/>
-    <path d="M266 183L248 168" fill="none" stroke="#5cbf3d" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M266 183L248 198" fill="none" stroke="#5cbf3d" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
-    <rect x="324" y="182" width="28" height="31" rx="4" fill="none" stroke="#eef2e8" stroke-width="4"/>
-    <path d="M324 190H352" fill="none" stroke="#eef2e8" stroke-width="4" stroke-linecap="round"/>
-    <path d="M331 176V186" fill="none" stroke="#eef2e8" stroke-width="4" stroke-linecap="round"/>
-    <path d="M345 176V186" fill="none" stroke="#eef2e8" stroke-width="4" stroke-linecap="round"/>
-    <circle cx="332" cy="198" r="2.5" fill="#5cbf3d"/>
-    <circle cx="338" cy="198" r="2.5" fill="#5cbf3d"/>
-    <circle cx="344" cy="198" r="2.5" fill="#5cbf3d"/>
-    <circle cx="332" cy="207" r="2.5" fill="#5cbf3d"/>
-    <circle cx="338" cy="207" r="2.5" fill="#5cbf3d"/>
-    <circle cx="344" cy="207" r="2.5" fill="#5cbf3d"/>
-    <path d="M148 320C174 277 212 254 256 254C300 254 338 277 364 320" fill="none" stroke="#eef2e8" stroke-width="18" stroke-linecap="round"/>
-    <path d="M186 352L256 292L326 352L256 412L186 352Z" fill="none" stroke="#eef2e8" stroke-width="14" stroke-linejoin="round"/>
-    <rect x="248" y="284" width="16" height="16" rx="2" fill="#5cbf3d" transform="rotate(45 256 292)"/>
-    <rect x="178" y="344" width="16" height="16" rx="2" fill="#5cbf3d" transform="rotate(45 186 352)"/>
-    <rect x="318" y="344" width="16" height="16" rx="2" fill="#5cbf3d" transform="rotate(45 326 352)"/>
-    <path d="M245 409H267V420L256 431L245 420Z" fill="#5cbf3d"/>
+    <rect width="512" height="512" rx="96" fill="#08111f"/>
+    <!-- Clipboard body: top rail stops short of the clip on both sides -->
+  <path d="M167 117L134 117A17 17 0 0 0 117 134L117 432A17 17 0 0 0 134 449L378 449A17 17 0 0 0 395 432L395 134A17 17 0 0 0 378 117L345 117" fill="none" stroke="#eef3eb" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Clip: outline only, nub on top, bottom bar drops below the rail -->
+  <path d="M197 141L197 107Q197 101 203 101L228 101Q234 101 234 95L234 84A22 22 0 0 1 278 84L278 95Q278 101 284 101L309 101Q315 101 315 107L315 141Z" fill="none" stroke="#eef3eb" stroke-width="14" stroke-linejoin="round"/>
+  <!-- Enlarged field group; no form rules, so the baseball mark survives at 32px. -->
+  <g transform="translate(0 10) translate(256 285) scale(1.08) translate(-256 -285)">
+    <path d="M143 247A113 88 0 0 1 369 247L271.1 376.5A19 19 0 0 1 240.9 376.5ZM256 211L331 279L256 360L181 279Z" fill="#8fbd45" fill-rule="evenodd"/>
+    <!-- Foul lines: home through 3B/1B out to the fence -->
+    <path d="M143 247L256 360" fill="none" stroke="#eef3eb" stroke-width="6" stroke-linecap="round"/>
+    <path d="M369 247L256 360" fill="none" stroke="#eef3eb" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="256" cy="285" r="14" fill="#eef3eb"/>
+    <!-- Larger bases and home plate remain distinct after launcher masking. -->
+    <rect x="248" y="203" width="16" height="16" fill="#eef3eb" transform="rotate(45 256 211)"/>
+    <rect x="173" y="271" width="16" height="16" fill="#eef3eb" transform="rotate(45 181 279)"/>
+    <rect x="323" y="271" width="16" height="16" fill="#eef3eb" transform="rotate(45 331 279)"/>
+    <path d="M242 346H270V360L256 374L242 360Z" fill="#eef3eb"/>
+  </g>
   </svg>
-  <text x="48" y="27" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="20" font-weight="600" fill="#eef2e8">
-    Dugout<tspan fill="#5cbf3d">Desk</tspan>
-  </text>
+  <g transform="translate(48.8 28)" aria-hidden="true"><path d="M2.01 0L6.4 0C11.1 0 13.96 -2.74 13.96 -8C13.96 -13.24 11.1 -15.85 6.25 -15.85L2.01 -15.85ZM4.82 -2.28L4.82 -13.58L6.06 -13.58C9.26 -13.58 11.08 -11.88 11.08 -8C11.08 -4.1 9.26 -2.28 6.06 -2.28ZM19.98 0.29C21.6 0.29 22.76 -0.51 23.81 -1.75L23.88 -1.75L24.1 0L26.38 0L26.38 -11.9L23.59 -11.9L23.59 -3.76C22.69 -2.59 21.99 -2.11 20.95 -2.11C19.66 -2.11 19.1 -2.84 19.1 -4.8L19.1 -11.9L16.32 -11.9L16.32 -4.44C16.32 -1.43 17.43 0.29 19.98 0.29ZM33.58 5.26C37.45 5.26 39.93 3.42 39.93 1.07C39.93 -0.99 38.42 -1.87 35.56 -1.87L33.45 -1.87C32 -1.87 31.52 -2.28 31.52 -2.96C31.52 -3.49 31.73 -3.78 32.1 -4.1C32.63 -3.88 33.21 -3.78 33.72 -3.78C36.24 -3.78 38.23 -5.19 38.23 -7.81C38.23 -8.63 37.94 -9.26 37.5 -9.75L37.5 -9.84L39.73 -9.84L39.73 -11.9L35.47 -11.9C34.98 -12.07 34.38 -12.19 33.72 -12.19C31.22 -12.19 29.02 -10.67 29.02 -7.93C29.02 -6.52 29.77 -5.38 30.57 -4.78L30.57 -4.68C29.89 -4.19 29.26 -3.39 29.26 -2.47C29.26 -1.5 29.72 -0.87 30.33 -0.48L30.33 -0.39C29.24 0.29 28.63 1.16 28.63 2.16C28.63 4.24 30.74 5.26 33.58 5.26ZM33.72 -5.53C32.56 -5.53 31.64 -6.4 31.64 -7.93C31.64 -9.43 32.56 -10.28 33.72 -10.28C34.88 -10.28 35.78 -9.43 35.78 -7.93C35.78 -6.4 34.86 -5.53 33.72 -5.53ZM34.01 3.44C32.12 3.44 30.96 2.81 30.96 1.75C30.96 1.19 31.25 0.65 31.88 0.17C32.34 0.29 32.85 0.34 33.5 0.34L35.13 0.34C36.48 0.34 37.24 0.61 37.24 1.53C37.24 2.55 35.93 3.44 34.01 3.44ZM46.04 0.29C49.02 0.29 51.71 -1.99 51.71 -5.94C51.71 -9.92 49.02 -12.19 46.04 -12.19C43.08 -12.19 40.39 -9.92 40.39 -5.94C40.39 -1.99 43.08 0.29 46.04 0.29ZM46.04 -1.99C44.29 -1.99 43.25 -3.56 43.25 -5.94C43.25 -8.34 44.29 -9.92 46.04 -9.92C47.78 -9.92 48.85 -8.34 48.85 -5.94C48.85 -3.56 47.78 -1.99 46.04 -1.99ZM57.53 0.29C59.15 0.29 60.32 -0.51 61.36 -1.75L61.43 -1.75L61.65 0L63.93 0L63.93 -11.9L61.14 -11.9L61.14 -3.76C60.24 -2.59 59.54 -2.11 58.5 -2.11C57.21 -2.11 56.65 -2.84 56.65 -4.8L56.65 -11.9L53.87 -11.9L53.87 -4.44C53.87 -1.43 54.98 0.29 57.53 0.29ZM71.18 0.24C72.15 0.24 72.99 0.02 73.62 -0.24L73.12 -2.21C72.73 -2.04 72.29 -1.96 71.88 -1.96C70.74 -1.96 70.21 -2.67 70.21 -4.05L70.21 -9.7L73.24 -9.7L73.24 -11.9L70.21 -11.9L70.21 -15.64L67.88 -15.64L67.54 -11.9L65.7 -11.78L65.7 -9.7L67.39 -9.7L67.39 -4.05C67.39 -1.48 68.41 0.24 71.18 0.24Z" fill="#eef3eb"/><path d="M75.49 0L79.88 0C84.58 0 87.44 -2.74 87.44 -8C87.44 -13.24 84.58 -15.85 79.73 -15.85L75.49 -15.85ZM78.3 -2.28L78.3 -13.58L79.54 -13.58C82.74 -13.58 84.56 -11.88 84.56 -8C84.56 -4.1 82.74 -2.28 79.54 -2.28ZM94.69 -9.99C96.29 -9.99 97.07 -8.92 97.07 -7.22L91.98 -7.22C92.32 -9.33 93.53 -9.99 94.69 -9.99ZM95.03 0.29C96.53 0.29 97.99 -0.19 99.1 -0.97L98.13 -2.76C97.31 -2.23 96.39 -1.94 95.37 -1.94C93.72 -1.94 92.24 -2.91 91.93 -5.09L99.39 -5.09C99.49 -5.53 99.54 -6.01 99.54 -6.55C99.54 -9.84 97.89 -12.19 94.64 -12.19C91.83 -12.19 89.12 -9.84 89.12 -5.96C89.12 -1.99 91.68 0.29 95.03 0.29ZM105.04 0.29C108.05 0.29 109.67 -1.36 109.67 -3.39C109.67 -5.48 108.05 -6.4 106.21 -7.03C104.7 -7.54 103.83 -7.9 103.83 -8.78C103.83 -9.5 104.39 -10.08 105.6 -10.08C106.55 -10.08 107.42 -9.79 108.27 -9.19L109.5 -10.76C108.53 -11.59 107.15 -12.19 105.53 -12.19C102.86 -12.19 101.21 -10.72 101.21 -8.63C101.21 -6.74 102.81 -5.77 104.53 -5.14C105.84 -4.65 107.03 -4.24 107.03 -3.25C107.03 -2.42 106.42 -1.82 105.14 -1.82C103.9 -1.82 102.81 -2.18 101.77 -3.05L100.53 -1.45C101.7 -0.34 103.39 0.29 105.04 0.29ZM111.68 0L114.45 0L114.45 -3.05L116.29 -5.16L119.35 0L122.38 0L117.92 -7.03L121.96 -11.9L118.88 -11.9L114.52 -6.45L114.45 -6.45L114.45 -17.12L111.68 -17.12Z" fill="#8fbd45"/></g>
 </svg>
