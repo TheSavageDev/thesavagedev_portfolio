@@ -5,8 +5,8 @@ const HomeFooter = () => {
         <p className="section-kicker">Contact</p>
         <h2 className="section-title mt-3">Let&apos;s build something lasting</h2>
         <p className="section-lede">
-          Open to thoughtful collaborations, client work, and conversations about
-          faith-informed software.
+          Open to a staff or senior engineering role, and to client work that
+          deserves the same care.
         </p>
 
         <div className="mt-12 flex flex-col gap-8 border-t border-white/10 pt-10 sm:flex-row sm:items-end sm:justify-between">
@@ -18,9 +18,11 @@ const HomeFooter = () => {
             />
             <div>
               <p className="font-display text-xl font-semibold tracking-tight text-white md:text-2xl">
-                Jason A Savage
+                Jason A. Savage
               </p>
-              <p className="mt-1 text-sm text-gray-400">Savage Webmancer</p>
+              <p className="mt-1 text-sm text-gray-400">
+                Staff engineer · Overland Park, Kansas
+              </p>
             </div>
           </div>
 
@@ -28,13 +30,8 @@ const HomeFooter = () => {
             <a href="mailto:thesavage42@icloud.com" className="text-link">
               thesavage42@icloud.com
             </a>
-            <a
-              href="https://en.wikipedia.org/wiki/Kansas"
-              target="_blank"
-              rel="noopener noreferrer nofollow"
-              className="text-link"
-            >
-              Kansas, USA
+            <a href="tel:+18162177008" className="text-link">
+              (816) 217-7008
             </a>
           </div>
         </div>

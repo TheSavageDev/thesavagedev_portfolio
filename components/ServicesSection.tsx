@@ -1,9 +1,18 @@
 const SERVICES = [
-  { title: "Research", description: "Discovery and requirements" },
-  { title: "Develop", description: "Web, mobile, and backend" },
   {
-    title: "WordPress, Shopify, Gatsby",
-    description: "Content and commerce sites",
+    title: "Product systems",
+    description:
+      "Expo, Next.js, and NestJS as one product, from the mobile app through the admin.",
+  },
+  {
+    title: "Cloud delivery",
+    description:
+      "Google Cloud, Firebase, Terraform, and the pipeline that ships each environment.",
+  },
+  {
+    title: "Sites with a long life",
+    description:
+      "Next.js and WordPress for parishes, troops, and small organizations.",
   },
 ] as const;
 
@@ -19,10 +28,10 @@ export const ServicesSection = () => {
         <header className="mb-12 max-w-2xl md:mb-16">
           <p className="section-kicker">Capabilities</p>
           <h2 id="services-heading" className="section-title mt-3">
-            Services
+            How I work
           </h2>
           <p className="section-lede">
-            From discovery to delivery across web, mobile, and content platforms.
+            The same stack as the day job, and the same care on a smaller site.
           </p>
         </header>
 

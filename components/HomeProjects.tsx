@@ -11,8 +11,8 @@ const HomeProjects = () => {
             Selected work
           </h2>
           <p className="section-lede">
-            Selected sites and products — from client websites to full-stack
-            apps.
+            Public products and sites. The platform work is in the experience
+            above.
           </p>
         </header>
 

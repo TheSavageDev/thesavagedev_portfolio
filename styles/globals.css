@@ -149,6 +149,10 @@
   animation-delay: 0.44s;
 }
 
+.hero-animate > *:nth-child(5) {
+  animation-delay: 0.56s;
+}
+
 @keyframes hero-rise {
   to {
     opacity: 1;
